@@ -1,0 +1,47 @@
+@font-face {
+  font-family: categoriesFont;
+  src: url(../../../30-Days-Of-React/06_Day_Map_List_Keys/src/fonts/Swiss921 BT/Swiss921BT.ttf);
+}
+
+@font-face {
+  font-family: answersFont;
+  src: url(../../../30-Days-Of-React/06_Day_Map_List_Keys/src/fonts/itc-korinna-std/ITC Korinna Std Heavy.otf);
+}
+
+body {
+  background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  column-gap: 0px;
+}
+
+.grid-container > div {
+  width: 224.5px;
+  height: 99px;
+  margin: 0px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  user-select: none;
+}
+
+.grid-container > .categories {
+  line-height: 50px;
+  color: white; 
+  font-family: categoriesFont;
+  font-size: 25px;
+}
+
+.grid-container > .answers {
+  line-height: 25px;
+  color: gold;
+  font-family: answersFont;
+  font-size: 35px;
+  text-shadow: 2px 2px #000000;
+}
+
+.answers:
